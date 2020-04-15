@@ -14,7 +14,7 @@ serviceAccounts:
     create: true
     name:
 
-sparkJobNamespace: ""
+sparkJobNamespace: "argo-test"
 installCrds: true
 controllerThreads: 10
 resyncInterval: 30
