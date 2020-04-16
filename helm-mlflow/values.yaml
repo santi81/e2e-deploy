@@ -35,7 +35,9 @@ service:
 ##
 ingress:
   enabled: false
-  annotations: {}
+  annotations: {
+    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+  }
   tls: []
   hosts: []
   path: /
